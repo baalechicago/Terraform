@@ -1,7 +1,7 @@
 resource "aws_instance" "main" {
   ami           = "ami-0a606d8395a538502"
   instance_type = var.instance_type
-  
+
   tags = {
     "Name" = "myServer-${local.project_name}"
   }
