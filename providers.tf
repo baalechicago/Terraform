@@ -3,7 +3,7 @@ terraform {
     organization = "nobleadmin"
 
     workspaces {
-      name = "example-workspace"
+      name = "example-workspace-update"
     }
   }
 }
